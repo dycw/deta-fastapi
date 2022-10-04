@@ -1,1 +1,1 @@
-# `dycw-template`
+# `deta-fastapi`
