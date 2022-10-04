@@ -137,6 +137,8 @@ more-itertools==8.14.0
     # via jaraco-classes
 mypy-extensions==0.4.3
     # via black
+numpy==1.23.3
+    # via deta-fastapi (pyproject.toml)
 packaging==21.3
     # via
     #   build
