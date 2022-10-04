@@ -108,6 +108,7 @@ repos:
       - id: pip-compile
         args:
           - --allow-unsafe
+          # - --generate-hashes
           - --quiet
           - --upgrade
           - pyproject.toml
@@ -116,6 +117,7 @@ repos:
         args:
           - --allow-unsafe
           - --extra=dev
+          # - --generate-hashes
           - --output-file=requirements-dev.txt
           - --quiet
           - --upgrade

@@ -46,7 +46,10 @@ skip_gitignore = true
 
 #### nitpick ##################################################################
 [tool.nitpick]
-style = "https://github.com/dycw/nitpick/blob/master/nitpick-style.toml"
+style = [
+  "gh://dycw/nitpick/styles/common.toml",
+  "gh://dycw/nitpick/styles/3.9.toml"
+]
 
 #### project ##################################################################
 [project]
